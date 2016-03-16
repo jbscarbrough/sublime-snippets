@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<?php echo sprintf("<pre>%s</pre>\n", var_export( ${1:variable}, true )); ?>
+]]></content>
+	<tabTrigger>debug</tabTrigger>
+	<scope>text.html</scope>
+	<description>PHP debug in HTML</description>
+</snippet>
